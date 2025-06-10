@@ -17,3 +17,5 @@ int main()
 
     printf("%d is the sum of all elements in array",total);
 }
+
+
