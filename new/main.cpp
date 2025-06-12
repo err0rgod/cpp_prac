@@ -3,14 +3,17 @@ using namespace std;
 #include <string>
 
 
+
+
+int add(int a, int b) {
+    int c = a + b;
+    return c;
+}
+
 int main(){
-    string m = "err0r god";
+    int a =2;
+    int b = 3;
 
-    char c[] = "err0r god";
-
-    char *c1 = c;
-    c1[1] = 'E'; // Changing the first character of the character array
-
-    cout << "String: " << m << endl;
-    cout << "Character Array: " << c1 << endl;
+    int c = add(a,b);
+    cout << "The sum of " << a << " and " << b << " is: " << c << endl;
 }
