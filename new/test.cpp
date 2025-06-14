@@ -22,3 +22,7 @@ int main(){
     cout << "The sum of " << a << " and " << b << " is: " << *c << endl;
     delete c; // Free the allocated memory
 }
+
+
+
+
