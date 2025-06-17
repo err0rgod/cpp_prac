@@ -1,34 +1,25 @@
 #include <iostream>
-using namespace std;
-
-
-void print() {
-    cout << "Hello, World!" << endl;
-}
-
-int *add(int *a,int *b){
-    int *c = new int; // Allocate memory for the result
-
-    *c = *a + *b;
-    return c;
-
-}
 
 int main(){
-    int a=3 , b=4;
+     int n, q;
+    cin >> n >> q;
 
-    int *c = add(&a, &b);
-    print();
-    cout << "The sum of " << a << " and " << b << " is: " << *c << endl;
-    delete c; // Free the allocated memory
+    vector<vector<int>> arr(n);  // variable-sized arrays
+
+    for (int i = 0; i < n; i++) {
+        int k;
+        cin >> k;
+        arr[i] = vector<int>(k);  // allocate space for k elements
+        for (int j = 0; j < k; j++) {
+            cin >> arr[i][j];     // input elements
+        }
+    }
+
+    for (int i = 0; i < q; i++) {
+        int a, b;
+        cin >> a >> b;
+        cout << arr[a][b] << endl;
+    }
+
+    return 0;
 }
-
-
-
-
-
-
-
-
-
-
