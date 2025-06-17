@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 #include <vector>
-
+#include <cmath>
 
 int main(){
      int n, q;
