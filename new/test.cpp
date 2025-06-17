@@ -4,7 +4,7 @@ using namespace std;
 #include <cmath>
 
 int main(){
-     int n, q;
+    int n, q;
     cin >> n >> q;
 
     vector<vector<int>> arr(n);  // variable-sized arrays
