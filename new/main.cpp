@@ -15,10 +15,12 @@ void enter(int age){
 
 int main(){
     int age;
-    cout << "What is yout age" << endl;
-    cin >> age;
+   // cout << "What is yout age" << endl;
+    //cin >> age;
 
-    enter(age);
+    for(size_t i; i < 60; i++){
+        enter(i)
+    }
     
 }
 
