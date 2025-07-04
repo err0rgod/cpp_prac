@@ -5,10 +5,10 @@ using namespace std;
 
 void enter(int age){
     if(age > 18){
-        cout << "welcome you are " << age << " years old andd allowed to enter in the bar";
+        cout << "welcome you are " << age << " years old andd allowed to enter in the bar" << endl;
     }
     else{
-        cout << "get the fuck out of here you are not old enough just " << age << " years old";
+        cout << "get the fuck out of here you are not old enough just " << age << " years old" << endl;
     }
 }
 
