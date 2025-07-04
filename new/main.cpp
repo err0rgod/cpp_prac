@@ -19,7 +19,7 @@ int main(){
     //cin >> age;
 
     for(size_t i; i < 60; i++){
-        enter(i)
+        enter(i);
     }
     
 }
