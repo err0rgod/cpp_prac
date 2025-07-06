@@ -1,4 +1,4 @@
-int maxa(int a,int b){
+int maxa(){
     int a ,b ;
     if (a > b){
         return a;
