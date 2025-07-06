@@ -1,1 +1,1 @@
-int max(int a , int b);
+int maxa(int a , int b);
