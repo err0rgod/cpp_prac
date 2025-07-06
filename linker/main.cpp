@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 
-    int maxi = maxa(2,3);
+    int maxi = max(2,3);
 
     cout<<maxi<<endl;
 
