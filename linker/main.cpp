@@ -8,9 +8,14 @@ int inc_mul(int a, int b){
 
 int main(){
 
-    cout << inc_mul(12,90)<<endl;
+    int x,y;
 
-    int maxi = max(12,3);
+    cin>>x>>endl;
+    cin>>y>>endl;
+
+    cout << inc_mul(x,y)<<endl;
+
+    int maxi = max(x,y);
 
     cout<<maxi<<endl;
 
