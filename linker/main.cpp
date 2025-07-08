@@ -10,8 +10,8 @@ int main(){
 
     int x,y;
 
-    cin>>x>>endl;
-    cin>>y>>endl;
+    cin>>x;
+    cin>>y;
 
     cout << inc_mul(x,y)<<endl;
 
