@@ -3,14 +3,14 @@
 using namespace std;
 
 int inc_mul(int a, int b){
-    return((a++) * (++b))
+    return((a++) * (++b));
 }
 
 int main(){
 
     cout << inc_mul(12,90)<<endl;
 
-    int maxi = max(2,3);
+    int maxi = max(12,3);
 
     cout<<maxi<<endl;
 
