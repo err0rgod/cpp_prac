@@ -38,7 +38,10 @@
 			"problemMatcher": [
 				"$gcc"
 			],
-			"group": "build",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
 			"detail": "compiler: C:\\C++ compiler\\mingw64\\bin\\gcc.exe"
 		},
 		{
@@ -98,10 +101,7 @@
 			"problemMatcher": [
 				"$gcc"
 			],
-			"group": {
-				"kind": "build",
-				"isDefault": true
-			},
+			"group": "build",
 			"detail": "compiler: C:/mingw64/bin/g++.exe"
 		}
 	]
