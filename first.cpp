@@ -3,25 +3,18 @@
 using namespace std;
 
 
+template <typename T> T max(T a,T b);
+
+template <typename T> T max(T a,T b){
+    return (a>b)? a : b;
+   }
+
 int main(){
 
-    int x , y;
-
-    cin >> x;
-    cin >> y;
-
-    auto f = [=](int a, int b)-> int{
-       
-        cout <<"by param : " << a/b << endl;
-        cout <<  "by cl : "<<x/y << endl;
-        return a/b;
-        
-
-    };
-    cout << sizeof(f) << " : " << f(12,2) << endl;
-
-
-
+   int a = 10, b = 12;
+   cout << max(a,b) << endl;
+   
+   
 
 
 
