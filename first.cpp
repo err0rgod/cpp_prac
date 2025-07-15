@@ -10,16 +10,16 @@ int main(){
     cin >> x;
     cin >> y;
 
-    auto f = [](int a, int b)-> int{
+    auto f = [x,y](int a, int b)-> int{
        
-        cout << a/b << endl;
+        cout <<"by param : " << a/b << endl;
+        cout <<  "by cl : "<<x/y << endl;
         return a/b;
+        
 
     };
     cout << sizeof(f) << " : " << f(12,2) << endl;
 
-
-    f(x,y);
 
 
 
