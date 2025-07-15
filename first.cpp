@@ -5,13 +5,14 @@ using namespace std;
 
 int main(){
 
-    auto lambda = [](){
+    [](int a, int b){
         std::cout << "lAMBda function working" << std::endl;
+        cout << a/b << endl;
 
-    };
-
-    lambda;
-
+    }(10,2);
 
 
-}
+
+
+
+} 
