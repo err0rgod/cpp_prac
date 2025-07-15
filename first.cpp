@@ -5,11 +5,13 @@ using namespace std;
 
 int main(){
 
-    [](int a, int b){
+    auto f = [](int a, int b){
         std::cout << "lAMBda function working" << std::endl;
         cout << a/b << endl;
 
-    }(10,2);
+    };
+
+    f(10,2);
 
 
 
