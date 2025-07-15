@@ -10,7 +10,7 @@ int main(){
     cin >> x;
     cin >> y;
 
-    auto f = [x,y](int a, int b)-> int{
+    auto f = [=](int a, int b)-> int{
        
         cout <<"by param : " << a/b << endl;
         cout <<  "by cl : "<<x/y << endl;
