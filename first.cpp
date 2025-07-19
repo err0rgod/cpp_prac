@@ -15,7 +15,4 @@ int main(){
    cout << maxi(a,b) << endl;
    
    
-
-
-hj 
 } 
