@@ -1,20 +1,13 @@
 #include <iostream>
+#include <sstream>
+using namespace std;
 
-class test{
-    public:
+int main() {
+    stringstream ss;
+    ss << "123 456";
 
-        test
-        
+    int a, b;
+    ss >> a >> b;
 
-
-    private:
-
-        int num1 = 2;
-        int num2 = 5;
-};
-
-
-
-int main(){
-    std::cout <<"End of program "
+    cout << a << " " << b << endl;
 }
