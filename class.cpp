@@ -6,8 +6,13 @@ int main() {
     stringstream ss;
     ss << "123 45";
 
-    int a, b;
+    int a, b,c;
     ss >> a >> b;
 
     cout << a << " " << b << endl;
+
+
+    ss >> c;
+
+    cout << c << endl;
 }
