@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     stringstream ss;
-    ss << "123 456";
+    ss << "123 45";
 
     int a, b;
     ss >> a >> b;
