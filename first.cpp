@@ -11,6 +11,8 @@ template <typename T> T maxi(T a,T b){
 
 int main(){
 
+   int num;
+
    int a = 10, b = 12;
    cout << maxi(a,b) << endl;
    
