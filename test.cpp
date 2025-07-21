@@ -4,20 +4,19 @@
 using namespace std;
 
 vector<int> parseInts(string str) {
-    stringstream ss(str);
+	stringstream ss(str);
     char s;
     int a, b, c;
     ss >> a >> s >> b >> s >> c;
-
     vector<int> result;
+
     result.push_back(a);
     result.push_back(b);
     result.push_back(c);
-
     return result;
-}
 
-int main() {
+
+int main(){
     string str;
     cin >> str;
     vector<int> integers = parseInts(str);
